@@ -59,7 +59,7 @@ An end-to-end Machine Learning web application designed to help farmers make dat
 ## Installation & Setup
 
 ```bash
-git clone https://github.com/your-username/your-repository-name.git
-cd your-repository-name
+git clone https://github.com/codebyakshitpunia/Smart-AI-Crop-Fertilizer-Recommendation-System.git
+cd Smart-AI-Crop-Fertilizer-Recommendation-System
 pip install -r requirements.txt
 python app.py
