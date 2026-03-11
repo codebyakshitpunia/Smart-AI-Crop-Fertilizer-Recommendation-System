@@ -15,7 +15,7 @@ fert_encoder = pickle.load(open('fert_encoder.pkl', 'rb'))
 
 # Weather fetching function
 def get_live_weather(city_name):
-    api_key = "15f63ebbd4c653f49580cf8541b8d5cc" # Put your OpenWeatherMap key here
+    api_key = "-----------------" # Put your OpenWeatherMap key here
     base_url = "https://api.openweathermap.org/data/2.5/weather"
     params = {'q': city_name, 'appid': api_key, 'units': 'metric'}
     
@@ -72,4 +72,5 @@ def predict():
 
 # Run the local server
 if __name__ == "__main__":
+
     app.run(debug=True)
